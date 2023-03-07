@@ -1,6 +1,6 @@
 import requests,json
 from notion.client import NotionClient
-token =  "secret_8ItEG3yPsAGErF1arwCa2m5C70RD13GWWqLv1cuuvym"
+token =  ""
 database_id = "fe34c2bce09b4216b43e91825b94d6f4"
 headers = {
     "Authorization": "Bearer " + token,
