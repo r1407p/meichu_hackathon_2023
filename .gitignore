@@ -1,2 +1,3 @@
 #ignore the receiver data in auto_send_mail
 /auto_send_mail/*data.py
+/notion_api/data/*
