@@ -1,3 +1,4 @@
 #ignore the receiver data in auto_send_mail
 /auto_send_mail/*data.py
+#ignore the meeting participants' data in notion_api/data 
 /notion_api/data/*
