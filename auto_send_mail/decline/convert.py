@@ -1,7 +1,8 @@
 import openpyxl
 def excel_to_tuple(worksheet, max_column = 0,max_row = 0):
     result_dict = []
-    for row in range(1, max_row+1):
+    max_column =2
+    for row in range(2, max_row+1):
         print(row)
         this_dict = []
         for column in range(1,max_column+1):
@@ -15,7 +16,7 @@ def excel_to_tuple(worksheet, max_column = 0,max_row = 0):
 
     return result_dict
 if __name__ =='__main__':
-    path = "auto_send_mail/accept/accept_data.xlsx"
+    path = "auto_send_mail/decline/receiver_information.xlsx"
     file  = openpyxl.load_workbook(path)
     sheet = file.worksheets[0]
     receiver = excel_to_tuple(sheet,sheet.max_column,sheet.max_row)

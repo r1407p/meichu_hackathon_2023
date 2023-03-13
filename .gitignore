@@ -1,7 +1,9 @@
 #ignore the receiver data in auto_send_mail
 /auto_send_mail/*data.py
 /auto_send_mail/*data.*
-
+/auto_send_mail/*data.py
+/auto_send_mail/decline/*data*
+/auto_send_mail/decline/*informaion.xlsx
 /auto_send_mail/accept/*data*
 #ignore the meeting participants' data in notion_api/data 
 /notion_api/data/*
